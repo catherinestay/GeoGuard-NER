@@ -3,7 +3,7 @@
 **Autonomous IoT-AI Early Warning & Debris Flow Prediction System for North-East India**
 
 Dexathon 2026 · Theme: Disaster Management & Smart Resilience · Category: Hardware / Software Hybrid
-Team **VELORA** : Catherine Sriya · Catherine Liz · Vaneessa · Hepzibah · Nethra · Kaelyn (Team ID: TEAM-1)
+Team **VELORA** : Catherine Sriya · Catherine Liz · Vaneessa · Hepzibah · Nethra · Kaelyn (Team ID: DEX26080)
 
 GeoGuard-NER is a network of solar-powered sensor anchors pushed into unstable hill slopes. Each node measures
 subsurface soil moisture and slope tilt, sends the readings over long-range LoRa, and feeds an AI model that estimates the
