@@ -1,13 +1,11 @@
 """GeoGuard-NER backend: ingest node telemetry, score risk, expose status for the dashboard."""
-import sys
 from collections import defaultdict, deque
 from datetime import datetime, timezone
-from pathlib import Path
 
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
 
-sys.path.append(str(Path(__file__).resolve().parents[2] / "ml"))
+
 from fos import SoilParams, factor_of_safety, risk_level  # noqa: E402
 
 app = FastAPI(title="GeoGuard-NER API", version="0.1.0")
